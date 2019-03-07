@@ -13,3 +13,8 @@ spring:
   profiles: test
   application:
     name: microservicecloud-config-test
+---
+spring:
+  profiles: pd
+  application:
+    name: microservicecloud-config-pd  
